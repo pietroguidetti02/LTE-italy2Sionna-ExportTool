@@ -1,0 +1,23 @@
+{
+    "project_name": "giuriatis",
+    "utm_epsg": "EPSG:32632",
+    "center": {
+        "lat": 45.477750973956006,
+        "lon": 9.230611924348452
+    },
+    "transmitters": [
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 102,
+            "v1": 0,
+            "eNB": 500190,
+            "v2": 0,
+            "Lat": 45.4770958,
+            "Lon": 9.2307721,
+            "Desc": "B7 Milano Via Giovanni Celoria c/o lampione",
+            "v3": 3175
+        }
+    ]
+}

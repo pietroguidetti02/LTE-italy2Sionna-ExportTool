@@ -1,0 +1,188 @@
+{
+    "project_name": "duomo",
+    "utm_epsg": "EPSG:32632",
+    "area": {
+        "min_lat": 45.46336592020297,
+        "max_lat": 45.46505145733967,
+        "min_lon": 9.188181462013205,
+        "max_lon": 9.19329911681362,
+        "polygon": [
+            {
+                "lat": 45.46336592020297,
+                "lon": 9.188213648521383
+            },
+            {
+                "lat": 45.46505145733967,
+                "lon": 9.188181462013205
+            },
+            {
+                "lat": 45.46493106350118,
+                "lon": 9.193181099616965
+            },
+            {
+                "lat": 45.463508891826834,
+                "lon": 9.19329911681362
+            },
+            {
+                "lat": 45.46336592020297,
+                "lon": 9.188213648521383
+            }
+        ]
+    },
+    "center": {
+        "lat": 45.4642116432564,
+        "lon": 9.190647791135344
+    },
+    "transmitters": [
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 14,
+            "v1": 0,
+            "eNB": 500696,
+            "v2": 0,
+            "Lat": 45.4641259,
+            "Lon": 9.1884793,
+            "Desc": "B7 Milano Duomo Ovest",
+            "v3": 3175,
+            "cluster_size": 1,
+            "cluster_cids": "14"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 31,
+            "v1": 0,
+            "eNB": 501478,
+            "v2": 0,
+            "Lat": 45.4640366,
+            "Lon": 9.188505,
+            "Desc": "B1 S1 Milano Piazza del Duomo",
+            "v3": 275,
+            "cluster_size": 1,
+            "cluster_cids": "31"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 32,
+            "v1": 0,
+            "eNB": 501478,
+            "v2": 0,
+            "Lat": 45.463443,
+            "Lon": 9.1883642,
+            "Desc": "B1 S2 Milano",
+            "v3": 275,
+            "cluster_size": 1,
+            "cluster_cids": "32"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 33,
+            "v1": 0,
+            "eNB": 501478,
+            "v2": 0,
+            "Lat": 45.4646547,
+            "Lon": 9.1924972,
+            "Desc": "B1 S3 Milano Piazza Duomo Est",
+            "v3": 275,
+            "cluster_size": 1,
+            "cluster_cids": "33"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 22,
+            "v1": 0,
+            "eNB": 501480,
+            "v2": 0,
+            "Lat": 45.4638175,
+            "Lon": 9.1912221,
+            "Desc": "B7 S2 Milano Piazza del Duomo Palazzo Reale",
+            "v3": 3175,
+            "cluster_size": 1,
+            "cluster_cids": "22"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 31,
+            "v1": 0,
+            "eNB": 501480,
+            "v2": 0,
+            "Lat": 45.4636965,
+            "Lon": 9.1909762,
+            "Desc": "B1 S1 Milano",
+            "v3": 275,
+            "cluster_size": 1,
+            "cluster_cids": "31"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 21,
+            "v1": 0,
+            "eNB": 502829,
+            "v2": 0,
+            "Lat": 45.4646463,
+            "Lon": 9.1884378,
+            "Desc": "Cluster of 12 BTS at same coordinates",
+            "v3": 3175,
+            "cluster_size": 12,
+            "cluster_cids": "21,22,23,24,31,32,33,34,41,42,43,44"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 21,
+            "v1": 0,
+            "eNB": 503262,
+            "v2": 0,
+            "Lat": 45.4642117,
+            "Lon": 9.1896751,
+            "Desc": "Cluster of 13 BTS at same coordinates",
+            "v3": 3175,
+            "cluster_size": 13,
+            "cluster_cids": "21,24,25,31,33,34,35,41,42,43,44,45,46"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 21,
+            "v1": 0,
+            "eNB": 504495,
+            "v2": 0,
+            "Lat": 45.4642117,
+            "Lon": 9.189657,
+            "Desc": "Cluster of 15 BTS at same coordinates",
+            "v3": 3175,
+            "cluster_size": 15,
+            "cluster_cids": "21,22,23,31,32,33,34,35,36,41,42,43,44,45,46"
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 31,
+            "v1": 0,
+            "eNB": 504533,
+            "v2": 0,
+            "Lat": 45.4642103,
+            "Lon": 9.1896602,
+            "Desc": "Cluster of 6 BTS at same coordinates",
+            "v3": 275,
+            "cluster_size": 6,
+            "cluster_cids": "31,32,33,34,35,36"
+        }
+    ]
+}

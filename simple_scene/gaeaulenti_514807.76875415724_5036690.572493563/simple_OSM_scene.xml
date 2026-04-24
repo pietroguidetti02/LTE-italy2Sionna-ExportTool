@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<scene version="2.1.0">
+    <default name="spp" value="4096"/>
+    <default name="resx" value="1024"/>
+    <default name="resy" value="768"/>
+    <integrator type="path">
+        <integer name="max_depth" value="12"/>
+    </integrator>
+    <bsdf type="twosided" id="mat-itu_concrete">
+        <bsdf type="diffuse">
+            <rgb value="0.53 0.53 0.53" name="reflectance"/>
+        </bsdf>
+    </bsdf>
+    <bsdf type="twosided" id="mat-itu_marble">
+        <bsdf type="diffuse">
+            <rgb value="0.7 0.64 0.48" name="reflectance"/>
+        </bsdf>
+    </bsdf>
+    <bsdf type="twosided" id="mat-itu_wet_ground">
+        <bsdf type="diffuse">
+            <rgb value="0.91 0.56 0.05" name="reflectance"/>
+        </bsdf>
+    </bsdf>
+    <emitter type="constant" id="World">
+        <rgb value="1.0 1.0 1.0" name="radiance"/>
+    </emitter>
+    <sensor type="perspective" id="Camera">
+        <string name="fov_axis" value="x"/>
+        <float name="fov" value="45"/>
+        <transform name="to_world">
+            <lookat origin="0, 0, 500" target="0, 0, 0" up="0, 1, 0"/>
+        </transform>
+    </sensor>
+    <shape type="ply" id="mesh-ground">
+        <string name="filename" value="mesh/ground.ply"/>
+        <ref id="mat-itu_wet_ground" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-building_0">
+        <string name="filename" value="mesh/building_0.ply"/>
+        <ref id="mat-itu_marble" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-building_1">
+        <string name="filename" value="mesh/building_1.ply"/>
+        <ref id="mat-itu_marble" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-building_2">
+        <string name="filename" value="mesh/building_2.ply"/>
+        <ref id="mat-itu_marble" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-building_3">
+        <string name="filename" value="mesh/building_3.ply"/>
+        <ref id="mat-itu_marble" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-building_4">
+        <string name="filename" value="mesh/building_4.ply"/>
+        <ref id="mat-itu_marble" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-building_5">
+        <string name="filename" value="mesh/building_5.ply"/>
+        <ref id="mat-itu_marble" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+    <shape type="ply" id="mesh-roads">
+        <string name="filename" value="mesh/road_mesh_combined.ply"/>
+        <ref id="mat-itu_concrete" name="bsdf"/>
+        <boolean name="face_normals" value="true"/>
+    </shape>
+</scene>

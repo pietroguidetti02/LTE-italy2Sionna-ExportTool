@@ -1,0 +1,64 @@
+{
+    "project_name": "citta studi",
+    "utm_epsg": "EPSG:32632",
+    "area": {
+        "min_lat": 45.479315,
+        "max_lat": 45.481053,
+        "min_lon": 9.22649,
+        "max_lon": 9.230031,
+        "polygon": [
+            {
+                "lat": 45.47936,
+                "lon": 9.226544
+            },
+            {
+                "lat": 45.481053,
+                "lon": 9.22649
+            },
+            {
+                "lat": 45.48103,
+                "lon": 9.230031
+            },
+            {
+                "lat": 45.479315,
+                "lon": 9.229998
+            },
+            {
+                "lat": 45.47936,
+                "lon": 9.226544
+            }
+        ]
+    },
+    "center": {
+        "lat": 45.48019299996403,
+        "lon": 9.228269636052648
+    },
+    "transmitters": [
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 102,
+            "v1": 0,
+            "eNB": 505158,
+            "v2": 0,
+            "Lat": 45.479469,
+            "Lon": 9.2288787,
+            "Desc": "B7 Polimi Nave / Trifoglio",
+            "v3": 3175
+        },
+        {
+            "Tech": "4G",
+            "MCC": 222,
+            "MNC": 1,
+            "CID": 105,
+            "v1": 0,
+            "eNB": 505158,
+            "v2": 0,
+            "Lat": 45.4803897,
+            "Lon": 9.2266423,
+            "Desc": "B7 Polimi Via Amp�re c/o Architettura",
+            "v3": 3175
+        }
+    ]
+}
