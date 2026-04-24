@@ -1,0 +1,13 @@
+sionna_env/
+dati/raw/
+dati/results/training_*
+__pycache__/
+*.pyc
+.DS_Store
+.vscode
+.stfolder
+notebooks/.ipynb_checkpoints
+*.zip
+cache
+introduction.ipynb
+old
