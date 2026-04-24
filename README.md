@@ -175,3 +175,13 @@ You should see exported BTS and a render/preview of the generated scene.
 
 ---
 **Note:** This tool is fully compatible with LTE Italy database files (`.ntm`).
+
+---
+
+
+## Credits & Acknowledgments
+
+This project is based on the fantastic work done in [sionna_osm_scene](https://github.com/manoj-kumar-joshi/sionna_osm_scene) by [@manoj-kumar-joshi](https://github.com/manoj-kumar-joshi). 
+
+A special thanks to the author for sharing the original code, which served as a fundamental starting point for this development! Cheers and have a good day! 🚀
+Write me for any suggestion. Every feedback is precious!
